@@ -93,16 +93,25 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  /*background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");*/
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-header.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .masthead h1 {
-  font-size: 4rem;
+  font-size: 10rem;
   margin: 0;
   padding: 0;
+  color: #ffffff;
+}
+
+.masthead h2 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  color: #eeeeee
 }
 
 @media (min-width: 992px) {
@@ -110,7 +119,7 @@ h6 {
     height: 100vh;
   }
   .masthead h1 {
-    font-size: 5.5rem;
+    font-size: 10rem;
   }
 }
 
@@ -123,7 +132,7 @@ h6 {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #9f7e63;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -213,7 +222,7 @@ h6 {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-participate.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -223,7 +232,7 @@ h6 {
   font-size: 3.5rem;
   font-weight: 700;
   display: block;
-  max-width: 30rem;
+  max-width: 50rem;
 }
 
 .portfolio-item {
@@ -322,14 +331,14 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: #9f7e63 !important;
+  border-color: #9f9c95 !important;
   color: #fff !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: #d4af88 !important;
+  border-color: #b8b5ae !important;
 }
 
 .btn-secondary {
@@ -353,13 +362,18 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #9f7e63 !important;
 }
 
 .text-primary {
-  color: #1D809F !important;
+  color: #d4af88 !important;
 }
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+.row img {
+  width: 200px;
+  height: 200px;
 }
